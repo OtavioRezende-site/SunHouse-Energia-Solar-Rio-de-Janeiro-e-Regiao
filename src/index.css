@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Source Sans 3", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-heading: "Manrope", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+
+  --color-renovo-blue: #023399;
+  --color-renovo-blue-dark: #01246e;
+  --color-renovo-yellow: #F9B500;
+  --color-renovo-yellow-hover: #e0a300;
+  --color-renovo-deep: #071C45;
+  --color-renovo-light: #F5F7FA;
+  --color-renovo-muted: #46556B;
+  --color-renovo-border: #D6DFEC;
+}
+
+@layer base {
+  html {
+    font-family: var(--font-sans);
+    color: var(--color-renovo-deep);
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    letter-spacing: -0.025em;
+  }
+}
+
+/* Custom smooth transitions adhering to Emil Design Engineering specs */
+.ease-renovo {
+  transition-timing-function: cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

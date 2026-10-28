@@ -1,0 +1,5 @@
+# Robots configuration for Renovo Energia Solar
+User-agent: *
+Disallow:
+
+Sitemap: https://renovoenergiasolar.com.br/sitemap.xml

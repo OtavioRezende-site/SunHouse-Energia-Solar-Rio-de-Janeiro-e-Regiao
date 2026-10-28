@@ -1,0 +1,63 @@
+RENOVO — VÍDEO HERO DE 10 SEGUNDOS
+
+O arquivo storyboard-10s.png contém quatro fotografias conceituais em uma única imagem. Ordem de leitura: superior esquerda, superior direita, inferior esquerda, inferior direita. A imagem foi gerada por IA como direção de fotografia. Não representa uma instalação comprovada da Renovo.
+
+Gere DOIS vídeos separados: horizontal para desktop e vertical para mobile. Use a mesma casa, o mesmo arranjo de painéis, luz e atmosfera. A montagem em quatro quadros é apenas referência: o resultado de cada geração deve ser um único plano de vídeo, sem grade, sem bordas e sem reproduzir a colagem na tela.
+
+Não há MP4 final neste pacote. Estes são os prompts completos para gerar os arquivos. O título, os botões e as faixas de legibilidade serão inseridos no site por HTML/CSS; não devem ser desenhados pelo gerador de vídeo.
+
+STORYBOARD TEMPORAL
+
+0–2,5s — Apresentação. Plano aéreo oblíquo da casa e do telhado com painéis solares, com paisagem costeira verde e luz quente. O painel fica à direita na versão horizontal. Um começo estável permite entender a cena rapidamente.
+
+2,5–5s — Aproximação sutil. A câmera avança muito lentamente, com leve deslocamento lateral. A superfície dos módulos revela reflexos discretos. Não mudar o telhado, a quantidade de painéis, o horário, a vegetação nem a arquitetura.
+
+5–7,5s — Permanência. O conjunto fotovoltaico continua protagonista. Movimento menor, sem corte para rostos, ferramentas ou tela de aplicativo. Não fazer uma montagem de serviços: a hero precisa conviver com a leitura do título.
+
+7,5–10s — Retorno visual suave. A câmera desacelera e se aproxima do enquadramento inicial, ou termina em composição muito semelhante para receber um crossfade discreto. A imagem não escurece nem pisca. A continuidade espacial deve ser mais importante do que forçar uma trajetória fisicamente impossível.
+
+HORIZONTAL — COPIAR ESTE PROMPT NO GERADOR
+
+Create a single uninterrupted 10-second photorealistic cinematic drone shot for the background of the Renovo Energia Solar website hero. Aspect ratio 16:9, target resolution 1920x1080 or higher, 24 or 30 fps, silent. Use the attached 4-frame storyboard as a visual reference for one continuous shot, NOT as a split-screen layout. Do not include the storyboard grid, gutters, captions, text or logos in the video.
+
+Scene: a plausible contemporary Brazilian home in a green coastal hillside neighborhood inspired by Niteroi, Rio de Janeiro. White rendered walls, restrained architecture, terracotta pitched roof, a clean technically credible array of dark navy photovoltaic modules mounted in orderly rows, subtle natural glass reflections, tropical vegetation, distant rounded hills and water. This is an illustrative architectural scene, not documentary footage of a named customer. Keep the house, panel count, roof edges, rows, mounting geometry, trees, horizon, sun position and shadows absolutely consistent for the full shot.
+
+Composition is essential because a real website headline and buttons will be overlaid later. Place the house and full solar array mainly in the RIGHT side of the frame, approximately x=55% to 94%, with the panel focus between y=42% and 80%. Leave the LEFT 40–43% visually calm: low-detail distant landscape and open atmosphere, no close objects, no person, no large foreground tree, no busy roof geometry. Do not add a fake solid panel or a rendered graphic gradient: the website will provide its own dark navy CSS overlay on the left. Preserve a useful sky region above the roof for the website header. Keep the panel array inside the frame at all times with generous margins.
+
+Camera: stabilized professional architectural drone at a three-quarter oblique angle; normal wide lens feel around 28–35 mm full-frame equivalent, no fisheye and no exaggerated perspective. Very slow movement, total lateral travel around 2–3 meters and angular change no more than about 6 degrees. The opening 0–2.5 seconds establishes the house; 2.5–5 seconds gently moves closer and sideways; 5–7.5 seconds lingers over the same composition; 7.5–10 seconds eases toward an end composition close to the start. A subtle physically plausible return is acceptable; never force a sudden reverse or jump. The start and end should be similar in brightness, framing and subject position, suitable for a short editorial crossfade into a loop. Do not promise a perfect seamless loop if the framing cannot support it: prioritize an elegant stable shot.
+
+Light and look: warm late-afternoon sunlight, natural Brazilian colors, deep blue module surfaces, soft amber reflections and realistic green vegetation. Premium architectural photography with gentle contrast and clear details. Natural exposure, no dramatic lighting flicker, no flashing lens flares, no intense sunburst crossing the left reading area, no excessively saturated teal-orange filter. The scene should communicate a well-planned solar installation, everyday comfort and the potential of an ordinary property, not ostentatious luxury or speculative financial returns.
+
+Keep the whole solar array clearly visible. No text, slogans, logos, icons, prices, percentages, invoices, floating numbers, energy particles, neon electricity, glowing wires, animated diagrams, before/after transformation, smoke, crowds, vehicles crossing the shot, close faces, fake employees or extreme weather. No object morphing, no panels multiplying, no roof bending, no people appearing, no watermarks. No rapid orbit, crash zoom, timelapse, speed ramp, handheld shake, abrupt cut, excessive motion blur or end fade to black. Deliver just one clean landscape video shot with no audio.
+
+VERTICAL — COPIAR ESTE PROMPT NO GERADOR
+
+Create a single uninterrupted 10-second photorealistic cinematic drone shot for the MOBILE hero background of the Renovo Energia Solar website. Native portrait aspect ratio 9:16, target 1080x1920 or higher, 24 or 30 fps, silent. This is a separately composed portrait version of the attached landscape storyboard, not a stretched or automatic center-cropped landscape file. The 4-frame storyboard is a photographic direction reference only; do not output a collage, borders or multiple simultaneous views.
+
+Use the same plausible Brazilian coastal hillside house, terracotta pitched roof, white rendered architecture, tropical greenery and dark navy photovoltaic module array as the reference. Preserve the same architecture, panel layout, time of day, lighting direction and material colors. It is an illustrative concept, not a verified Renovo customer project.
+
+Portrait framing is the main requirement. Pull the camera back and tilt/reframe so that the complete roof and solar array occupy the central-to-lower part of the image, primarily y=49% to 84%, within x=12% to 88%. Leave the TOP 40–44% as simple sky and quiet distant atmosphere. This upper region will receive an HTML headline, short supporting copy and website actions later. Keep 7–10% safety margin on both sides; no panel should touch an edge. Leave the very bottom relatively quiet for a separate interface control if needed. Do not place the house or panels behind the future upper text region. Do not add text or a graphic dark overlay inside the generated video; the website applies legibility layers separately.
+
+Camera: professional stabilized aerial photography, modest height and natural perspective around 28–35 mm full-frame equivalent. Slow lateral glide with only 2–3 meters of travel and at most 6 degrees of rotation; adapt the distance so the roof remains fully visible throughout the portrait frame. First quarter establishes the house, middle half glides and lingers gently, final quarter settles near the initial framing for an unobtrusive crossfade loop. No dramatic push-in. Keep the horizon level. Preserve spatial consistency; the building, trees and panels must not change shape or count.
+
+Warm late-afternoon natural light, soft gold highlights, credible deep blue photovoltaic glass and lush but realistic green surroundings. Balanced exposure, enough detail in the panels and no bright flare near the upper text-safe area. It should feel calm, local, tangible and confident. The future website title is about solar energy on the visitor's roof and new possibilities for daily life; the shot must support that idea without literal financial graphics or artificial energy effects.
+
+No text, subtitles, logos, brand signs, icons, numerals, testimonial overlays, buttons, phones, UI screens, watermarks, grid layout, explosions, neon energy, moving sunbeams, solar panels growing or morphing, roof warping, fake workers, identifiable customer address, monument inserts, rapid cuts, time-lapse, speed ramps, shaky camera or ending in black. No audio. Deliver a clean native portrait 9:16 shot.
+
+SE O GERADOR ACEITAR APENAS UMA IMAGEM INICIAL
+
+Selecionar um único quadro da referência como orientação de cena antes da geração. Não animar a colagem inteira. Se a ferramenta não recortar quadros, solicitar que ela interprete a referência e produza um plano único. A versão mobile deve ser recomposta e pode precisar de um novo quadro inicial vertical; não cortar metade do telhado para caber.
+
+CONTROLE DE QUALIDADE DOS VÍDEOS
+
+1. Conferir duração real de 10s, proporção correta e ausência de áudio.
+2. Comparar os quadros 0s, 3s, 6s e 9s: a casa, o número de módulos e a geometria devem permanecer estáveis.
+3. Testar a sobreposição do texto da hero sobre o quadro mais claro, no desktop e no mobile. Se o vídeo se tornar irreconhecível depois do overlay, corrigir composição ou mover o bloco de texto, não apenas aumentar o escurecimento.
+4. No horizontal, os painéis precisam ficar livres à direita; no vertical, livres na metade inferior. Se o texto não couber em 320px, usar o layout com texto e janela de mídia separados, já previsto no arquivo principal.
+5. Verificar o reinício. Se houver salto, fazer uma transição curta e discreta no editor ou refazer o trecho; não aceitar flash ou objeto duplicado.
+6. Exportar MP4 H.264 e produzir poster individual WebP para cada versão. O poster deve ser um quadro limpo, não a colagem e não uma captura com interface do editor.
+7. Nomes finais: hero-desktop.mp4, hero-mobile.mp4, poster-desktop.webp, poster-mobile.webp. Adicionar ao projeto e verificar todas as referências de arquivo.
+
+COMO ENTREGAR AO CONSTRUTOR
+
+Enviar os dois MP4 ao mesmo projeto criado a partir de 00-CRIAR-SITE-RENOVO.txt. Orientar o construtor a trocar os posters temporários, preservar o texto e os botões e revisar a composição nos breakpoints. Não remodelar todo o site só porque a mídia final chegou.

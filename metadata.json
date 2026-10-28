@@ -1,0 +1,8 @@
+{
+  "name": "SunHouse Energia Solar | Rio de Janeiro e Região",
+  "description": "Instalação, homologação Light e Enel, manutenção e serviços de eletricista no Rio de Janeiro. Economia de até 95%.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
