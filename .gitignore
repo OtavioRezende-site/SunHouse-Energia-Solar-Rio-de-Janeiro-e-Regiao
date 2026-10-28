@@ -6,3 +6,8 @@ coverage/
 *.log
 .env*
 !.env.example
+
+# GitHub Pages docs publication folder and nojekyll flags
+!docs/
+!docs/**
+!.nojekyll

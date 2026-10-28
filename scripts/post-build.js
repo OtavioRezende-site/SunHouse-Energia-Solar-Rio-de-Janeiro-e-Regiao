@@ -24,10 +24,14 @@ function postBuild() {
 
   const htmlContent = fs.readFileSync(indexHtmlPath, 'utf8');
 
-  // 1. Create docs/.nojekyll to prevent GitHub Pages Jekyll processing
-  const nojekyllPath = path.join(docsDir, '.nojekyll');
-  fs.writeFileSync(nojekyllPath, '', 'utf8');
+  // 1. Create .nojekyll in both /docs and root / to prevent GitHub Pages Jekyll processing
+  const docsNojekyllPath = path.join(docsDir, '.nojekyll');
+  fs.writeFileSync(docsNojekyllPath, '', 'utf8');
   console.log('✓ Created docs/.nojekyll');
+
+  const rootNojekyllPath = path.join(rootDir, '.nojekyll');
+  fs.writeFileSync(rootNojekyllPath, '', 'utf8');
+  console.log('✓ Created root .nojekyll');
 
   // 2. Generate subdirectories for each route with index.html for direct access without 404
   for (const route of routes) {

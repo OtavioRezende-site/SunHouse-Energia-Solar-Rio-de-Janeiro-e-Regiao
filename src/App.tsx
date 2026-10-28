@@ -46,6 +46,7 @@ function PageRouteContainer({ onOpenPrivacy }: RouteContentProps) {
         <Route path="/projetos" element={<ProjectsPage />} />
         <Route path="/duvidas" element={<FAQPage />} />
         <Route path="/pedir-avaliacao" element={<EvaluationPage onOpenPrivacy={onOpenPrivacy} />} />
+        <Route path="/index.html" element={<Navigate to="/" replace />} />
         
         {/* Catch-all redirect to home */}
         <Route path="*" element={<Navigate to="/" replace />} />
@@ -58,9 +59,13 @@ export default function App() {
   const [privacyModalOpen, setPrivacyModalOpen] = useState(false);
   const [previaStatusModalOpen, setPreviaStatusModalOpen] = useState(false);
 
+  // Normaliza o basename para suportar '/' ou '/SunHouse-Energia-Solar-Rio-de-Janeiro-e-Regiao'
+  const rawBase = import.meta.env.BASE_URL || '/';
+  const routerBase = rawBase.endsWith('/') && rawBase !== '/' ? rawBase.slice(0, -1) : rawBase;
+
   return (
     <MotionConfig reducedMotion="user">
-      <BrowserRouter basename={import.meta.env.BASE_URL}>
+      <BrowserRouter basename={routerBase === '/' ? '' : routerBase}>
         {/* Scroll restoration to top on page change */}
         <ScrollToTop />
 
